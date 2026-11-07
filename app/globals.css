@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+html[data-font-scale='sm'] {
+  font-size: 14px;
+}
+
+html[data-font-scale='base'] {
+  font-size: 16px;
+}
+
+html[data-font-scale='lg'] {
+  font-size: 18px;
+}
+
+html[data-font-scale='xl'] {
+  font-size: 20px;
+}
+
+body {
+  @apply antialiased selection:bg-indigo-600 selection:text-white;
+}
